@@ -1,0 +1,9 @@
+n = int(input("Enter the size of an array:"))
+arr = []
+for i in range(n):
+    num = int(input("Enter the element: "))
+    arr.append(num)
+    
+print("Array : ",arr)
+print("Minimum is : ",min(arr))
+    
