@@ -1,0 +1,12 @@
+word = input("Enter the word: ")
+op = input("Enter the op to be done: ")
+if (op == "u"):
+    print(word.upper())
+elif (op == "l"):
+    print(word.lower())
+elif(op == "s"):
+    print(word.swapcase())
+elif(op == "c"):
+    print(word.capitalize())
+else:
+    print(word)
