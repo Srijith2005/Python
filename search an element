@@ -1,0 +1,13 @@
+n = int(input("Enter size of array: "))
+
+arr = []
+
+for i in range(n):
+    arr.append(int(input()))
+
+key = int(input("Enter element to search: "))
+
+if key in arr:
+    print("Element found")
+else:
+    print("Element not found")
