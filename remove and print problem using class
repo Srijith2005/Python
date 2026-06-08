@@ -1,0 +1,24 @@
+class numberoperation:
+    
+    def __init__(self,num):
+        self.num = num 
+    
+    def remove_last_digit(self):
+        return self.num//10
+    
+    def get_last_digit(self):
+        return self.num%10
+        
+num = int(input("Enter the numbers:"))
+Work = input("Enter operation(R/Re):")
+
+object = numberoperation(num)
+
+if Work == "R":
+    print(object.remove_last_digit())
+    
+elif Work == "Re":
+    print(object.get_last_digit())
+    
+else:
+    print("Invalid operation")
