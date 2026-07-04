@@ -1,0 +1,5 @@
+letters = ['A', 'B', 'C', 'D']
+rev = []
+for i in range(len(letters) -1,-1,-1):
+    rev.append(letters[i])
+print (rev)
